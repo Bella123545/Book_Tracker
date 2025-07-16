@@ -2,7 +2,7 @@ html,body{
     height:100%;
     margin:0;
     padding:0;
-
+    background-color: red; /* This should make the background red if CSS is loading */
 }
 
 #main{
@@ -11,10 +11,14 @@ html,body{
     height:100%;
     left:0;
     top:0;
+    background-color: yellow; /* This should make it yellow if CSS is loading */
 }
 
 #app{
     width:100%;
     height:100%;
     display:flex;
+    background-color: blue; /* This should make it blue if CSS is loading */
+    color: white;
+    font-size: 24px;
 }
